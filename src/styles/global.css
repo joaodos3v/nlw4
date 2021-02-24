@@ -8,6 +8,7 @@
   --white: #fff;
   --background: #f2f3f5;
   --gray-line: #dcdde0;
+  --gray: #d7d8da;
   --text: #666666;
   --text-highlight: #b3b9ff;
   --title: #2e384d;
@@ -48,14 +49,4 @@ button {
 a {
   color: inherit; /* Herda a cor dos contêineres dos links */
   text-decoration: none;
-}
-
-.container {
-  height: 100vh; /* Faz com que o container ocupe 100% do tamanho da tela. Vale lembrar que 100% != 100vh, pois 100% fará com que o browser tente adaptar o conteúdo disponível e 100vh ocupará a altura total */
-  max-width: 992px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-  flex-direction: column;
 }
