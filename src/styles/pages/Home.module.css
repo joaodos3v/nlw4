@@ -1,0 +1,18 @@
+.container {
+  height: 100vh; /* Faz com que o container ocupe 100% do tamanho da tela. Vale lembrar que 100% != 100vh, pois 100% fará com que o browser tente adaptar o conteúdo disponível e 100vh ocupará a altura total */
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container section {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem; /* ex.: 100px no desktop */
+  align-content: center;
+}

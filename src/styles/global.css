@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --gray-light: #f0f1f3;
+  --gray: #d7d8da;
+  --text: #666666;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+}
+
+
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%; /* 16 (valor inicial do font-size no browser) X 0.9375 = 15px -> ou seja, estamos diminuindo 1px dentro das medidas de todos elementos que utilizarão 'rem' na aplicação */
+  }
+}
+
+@media(max-width: 720px) { /* Abaixo de tablet */
+  html {
+    font-size: 87.5%; /* Diminui mais 1px, ficando 14px */
+  }
+}
+
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+body, input, textarea, button {
+  font: 400 16px 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit; /* Herda a cor dos contêineres dos links */
+  text-decoration: none;
+}
