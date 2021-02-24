@@ -1,0 +1,29 @@
+.experienceBar {
+  display: flex;
+  align-items: center;
+}
+
+.experienceBar span {
+  font-size: 1rem;
+}
+
+.experienceBar > div { /* Pega exatamente a div que está como 'filha' da classe, e não todas divs filhas (ou seja, apenas o primeiro nível) */
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--gray-line);
+  margin: 0 1.5rem; /* 1.5rem é 20px no tamanho tradicional */
+  position: relative; /* Isso é necessário porque depois terá uma div filha com 'position: absolute' */
+}
+
+.experienceBar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background: var(--green);
+}
+
+span.currentExperience {
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%); /* Hack de CSS: quando é necessário fazer com que a 'âncora' de um componente que utiliza 'position: absolute' seja o centro do elemento, basta fazer este translate no eixo X */
+}
