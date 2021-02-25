@@ -46,3 +46,7 @@
   - Isto quer dizer que eles podem ser referenciados de qualquer lugar (ex.: `src` de uma imagem -> `src='caminho/dentro/de/public'`)
 
 > Código: **#jornadainfinita**
+
+## Aula 03
+
+> Código: **focopraticagrupo**
