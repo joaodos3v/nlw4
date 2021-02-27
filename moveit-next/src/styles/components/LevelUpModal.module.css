@@ -1,0 +1,56 @@
+.overlay {
+  background: rgba(242, 243, 245, 0.8);
+  position: fixed; /* Fixo na tela, independente se tiver scroll */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: var(--white);
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  position: relative; /* Para o botão de fechar poder ter 'position: absolute', é necessário colocar isto por volta */
+}
+
+.container header {
+  font-size: 8.75rem;
+  font-weight: 600;
+  color: var(--blue);
+  background: url('/icons/levelup.svg') no-repeat center;
+  background-size: contain;
+}
+
+.container strong {
+  font-size: 2.25rem;
+  color: var(--title);
+}
+
+.container p {
+  font-size: 1.25rem;
+  color: var(--text);
+  margin-top: 0.25rem; /* 4px no desktop */
+}
+
+.container button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+
+  background: transparent; /* Para tirar os estilos padrões do button */
+  border: 0;
+
+  /* Quando o botão só tem um ícone dentro, esse hack CSS informa ao browser que o font-size utilizado não é padrão.
+  Isso é útil em situações onde o ícone utilizado é menor que o font-size padrão do navegador, o que acabaria descentralizando
+  o próprio ícone. */
+  font-size: 0px;
+}
