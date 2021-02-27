@@ -38,6 +38,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
+    setHasFinished(false);
     setTime(TWENTY_FIVE_MINUTES_IN_SECONDS);
   }
 
