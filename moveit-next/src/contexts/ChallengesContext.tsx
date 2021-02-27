@@ -49,6 +49,9 @@ export function ChallengesProvider({ children }: ChallengesProviderProps) {
 
     setActiveChallenge(challenge);
 
+    // Como o arquivo está dentro da pasta public, ele pode ser acessado através do seu absolute path
+    new Audio('/notification.mp3').play();
+
     if (Notification.permission === 'granted') {
       new Notification('Novo desafio 🎉', {
         body: `Valendo ${challenge.amount}xp!`
