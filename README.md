@@ -83,14 +83,14 @@ Neste card, um desafio novo é exibido e o usuário informa de concluiu a tarefa
 
 > Como experiência pessoal, foi muito engrandecedor participar deste evento e poder criar, em apenas 5 dias, uma aplicação como essa que, apesar de parecer simples, contém diversos conceitos e boas práticas úteis em qualquer projeto. Porém, como qualquer sistema, ainda é possível evoluir este e algumas sugestões de próximos passos são:
 
-- [] Tornar a aplicação responsiva com @media-queries
-- [] Adicionar funcionalidade de PWA
-- [] Criar tema customizado
-- [] Adicionar suporte à *light mode*
-- [] Fazer autenticação com GitHub
-- [] Criar um Leaderboard (ranking) com todos participantes
-- [] Criar funcionalidade para compartilhar a evolução no Twitter
-- [] Criar páina de configuração para poder definir:
+- [ ] Tornar a aplicação responsiva com @media-queries
+- [ ] Adicionar funcionalidade de PWA
+- [ ] Criar tema customizado
+- [ ] Adicionar suporte à *light mode*
+- [ ] Fazer autenticação com GitHub
+- [ ] Criar um Leaderboard (ranking) com todos participantes
+- [ ] Criar funcionalidade para compartilhar a evolução no Twitter
+- [ ] Criar páina de configuração para poder definir:
   - O tempo de intervalo padrão para os exercícios
   - A mensagem da notificação
   - O som da notificação
