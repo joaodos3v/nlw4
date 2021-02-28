@@ -15,7 +15,7 @@ interface CountdownProviderProps {
   children: ReactNode;
 };
 
-const TWENTY_FIVE_MINUTES_IN_SECONDS = 0.05 * 60;
+const TWENTY_FIVE_MINUTES_IN_SECONDS = 25 * 60;
 
 let countdownTimeout: NodeJS.Timeout;
 

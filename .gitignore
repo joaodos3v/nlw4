@@ -11,6 +11,7 @@
 
 # vercel
 .vercel
+/moveit-next/.vercel
 
 # next.js
 /moveit-next/.next/
