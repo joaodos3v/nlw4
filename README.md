@@ -2,7 +2,7 @@
 
 <figure>
   <p align="center">
-    <img alt="move.it" src="./media/Logo.png"  width="300" height="200" />
+    <img alt="move.it" src="./media/Logo.png"  width="600" height="150" />
     <figcaption>
       <span align="center">
         <blockquote>Next Level Week 4: é uma semana de ensino e estudo gratuito ministrada pela @rocketseat (eu participei da Trilha: React.js). Nas seções abaixo, você encontra mais detalhes sobre o move.it! :rocket:</blockquote>
