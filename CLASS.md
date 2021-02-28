@@ -54,3 +54,35 @@
 ## Aula 04
 
 > Código: **#neverstoplearning**
+
+## Aula 05
+
+- Para instalar o Vercel CLI: `npm i -g vercel`
+  - Feito isso, é necessário realizar login: `vercel login`
+    - Basta seguir os passos informados pelo CLI
+  - Por fim, rodar `vercel` e selecionar as opções adequadas
+
+### To-Do
+
+#### Desafios simples
+
+- [] Documentar o projeto
+  - GIF
+  - README
+  - Tecnologias utilizadas
+  - Como pegar e executar
+  - Quais funcionalidades existem no app
+- [] Melhorar a estilização da aplicação
+  - Tornar responsiva com @media-queries
+  - Adicionar funcionalidade de PWA
+  - Mudar as cores do tema
+  - Adicionar suporte à light/dark theme
+
+#### Funcionalidades [v2.0](https://www.figma.com/file/k98XNC6lbGxsokravCVHAU/NLW4-Move.it-2.0?node-id=160%3A2761)
+
+- [] *oauth github*
+  - Serverless com React.js e Next.js na Vercel | Code/Drops #54 (contém dicas)
+- [] Leaderboard
+- [] Compartilhar no Twitter
+
+> Código: **#missioncomplete**
